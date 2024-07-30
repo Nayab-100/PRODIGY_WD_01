@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Navigation Bar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="nav-menu" aria-label="navigation bar">
+        <nav class="menu">
+            <div class="nav-header">MyNav</div>
+            <ul class="menu-bar">
+                <li>
+                    <button class="nav-link dropdown-btn" aria-haspopup="true" aria-expanded="false">
+                        Browser
+                        <span class="arrow">▼</span>
+                    </button>
+                    <div class="dropdown">
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Chrome</a></li>
+                            <li><a href="#">Firefox</a></li>
+                            <li><a href="#">Safari</a></li>
+                            <li><a href="#">Edge</a></li>
+                            <li><a href="#">Opera</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-link dropdown-btn" aria-haspopup="true" aria-expanded="false">
+                        Apps
+                        <span class="arrow">▼</span>
+                    </button>
+                    <div class="dropdown">
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Email</a></li>
+                            <li><a href="#">Calendar</a></li>
+                            <li><a href="#">Photos</a></li>
+                            <li><a href="#">Maps</a></li>
+                            <li><a href="#">Music</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-link dropdown-btn" aria-haspopup="true" aria-expanded="false">
+                        Settings
+                        <span class="arrow">▼</span>
+                    </button>
+                    <div class="dropdown">
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Account</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Notifications</a></li>
+                            <li><a href="#">Appearance</a></li>
+                            <li><a href="#">Language</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-link dropdown-btn" aria-haspopup="true" aria-expanded="false">
+                        Help
+                        <span class="arrow">▼</span>
+                    </button>
+                    <div class="dropdown">
+                        <ul class="dropdown-menu">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Forums</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-link dropdown-btn" aria-haspopup="true" aria-expanded="false">
+                        About
+                        <span class="arrow">▼</span>
+                    </button>
+                    <div class="dropdown">
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Partners</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <div class="nav-end">
+                <form class="search" role="search">
+                    <input type="search" name="search" placeholder="Search">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <script src="script.js"></script>
+</body>
+</html>
